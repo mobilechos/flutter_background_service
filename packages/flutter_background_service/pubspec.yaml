@@ -11,18 +11,12 @@ dependencies:
   flutter:
     sdk: flutter
 
-  flutter_background_service_platform_interface: #^0.0.1+1
-    git:
-      url: git@github.sec.samsung.net:galaxy-overflow/flutter_background_service.git
-      path: packages/flutter_background_service_platform_interface/        
+  flutter_background_service_platform_interface: ^0.0.1+1
   flutter_background_service_android:
     git:
       url: git@github.sec.samsung.net:galaxy-overflow/flutter_background_service.git
       path: packages/flutter_background_service_android/        
   flutter_background_service_ios:
-    git:
-      url: git@github.sec.samsung.net:galaxy-overflow/flutter_background_service.git
-      path: packages/flutter_background_service_ios/        
 
 dev_dependencies:
   flutter_test:
