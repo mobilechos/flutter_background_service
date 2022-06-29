@@ -137,6 +137,7 @@ public class BackgroundService extends Service implements MethodChannel.MethodCa
     }
 
     private void createNotificationChannel() {
+        return;
         if (SDK_INT >= Build.VERSION_CODES.O) {
             CharSequence name = "Background Service";
             String description = "Executing process in background";
@@ -151,6 +152,7 @@ public class BackgroundService extends Service implements MethodChannel.MethodCa
     }
 
     protected void updateNotificationInfo() {
+        return;
         if (isForegroundService(this)) {
 
             String packageName = getApplicationContext().getPackageName();
